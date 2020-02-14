@@ -1,2 +1,5 @@
 .idea/
 node_modules/
+apify_storage/
+google-chrome-stable_current_amd64.deb
+live_view/
