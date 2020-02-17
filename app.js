@@ -86,7 +86,12 @@ async function crawl(results) {
             gotoFunction: ({request, page}) => {
                 return page.goto(request.url, { waitUntil: 'networkidle2' })
             },
-            headless: true
+            
+
+            launchPuppeteerOptions: {
+                headless: true,
+                useChrome: false
+            },
         });
     
         await crawler.run();
