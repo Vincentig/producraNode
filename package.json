@@ -5,7 +5,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apify": "^0.19.1",
+    "apify": "^3.1.4",
     "dotenv": "^8.2.0",
     "mysql2": "^2.1.0"
   }
