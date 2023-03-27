@@ -32,7 +32,7 @@ async function saveData(data, articleId)
     const connection = await mysql.createConnection({
         host     : '127.0.0.1',
         user     : 'vincent',
-        password : '201185',
+        password : '123456',
         database : 'productcrawler'
     });
 
@@ -52,7 +52,7 @@ async function getProducts() {
     const connection = await mysql.createConnection({
         host     : '127.0.0.1',
         user     : 'vincent',
-        password : '201185',
+        password : '123456',
         database : 'productcrawler'
     });
     // query database
